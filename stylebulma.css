@@ -1,0 +1,10 @@
+.producto-foto {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.producto-foto img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
