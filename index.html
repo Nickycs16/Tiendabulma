@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Cruz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Inicio
+                    </a>
+
+                    <a class="navbar-item">
+                        Carrito
+                    </a>
+
+                    <a class="navbar-item">
+                        Productos
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Más
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Mis compras
+                            </a>
+                            <a class="navbar-item is-selected">
+                                Contactanos
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Reporta un problema
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary">
+                                <strong>Iniciar sesión</strong>
+                            </a>
+                            <a class="button is-light">
+                                Registrarme
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="hero is-success is-halfheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">Tienda "En otra época"</p>
+                <p class="subtitle">Viaja en el tiempo en nuestra tienda mientras exploras productos únicos</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3" style="width: 70%; margin: 20px auto;">
+      <img
+        src="src\jarron.jpg"
+        alt="Placeholder image"
+      />
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img
+            src="src\jarron.jpg"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">JARRON CHINO</p>
+        <p class="subtitle is-6">@johnsmith</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Elegante pieza de inspiración clásica, con delicados detalles en azul y dorado que aportan un toque 
+      distinguido a cualquier espacio. Ideal para exhibir solo o acompañar tus flores favoritas.
+      <a href="#">#ANTIGUO</a>
+      <br />
+      <button class="button">Comprar</button>
+      <time datetime="2016-1-1"> 1 Jan 1963</time>
+    </div>
+  </div>
+</div>
+
+ <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3" style="width: 70%; margin: 20px auto;">
+      <img
+        src="src\reloj.jpg"
+        alt="Placeholder image"
+      />
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img
+            src="src\reloj.jpg"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Reloj antiguo de estilo clásico</p>
+        <p class="subtitle is-6">@johnsmith</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Dale un toque de elegancia a tu espacio con esta pieza decorativa de inspiración vintage. Su diseño clásico 
+      combina encanto y personalidad, ideal para destacar en una sala, oficina o rincón especial.
+      <a href="#">#ANTIGUO</a>
+      <br />
+      <button class="button">Comprar</button>
+      <time datetime="2016-1-1"> 18 Jul 1988</time>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3" style="width: 70%; margin: 20px auto;">
+      <img
+        src="src\lampara.jpg"
+        alt="Placeholder image"
+      />
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img
+            src="src\lampara.jpg"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Lámpara de estilo vintage</p>
+        <p class="subtitle is-6">@johnsmith</p>
+      </div>
+    </div>
+
+    <div class="content">
+      Ilumina tu espacio con un toque cálido y elegante. Su diseño clásico y acabado envejecido la
+      convierten en una pieza decorativa ideal para una sala, dormitorio o rincón especial.
+      <a href="#">#ANTIGUO</a>
+      <br />
+      <button class="button">Comprar</button>
+      <time datetime="2016-1-1"> 16 Ene 1971</time>
+    </div>
+  </div>
+</div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+
+    </script>
+
+</body>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            @2026 Todos los derechos reservados
+        </p>
+    </div>
+
+</html>
